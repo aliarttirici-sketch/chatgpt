@@ -1,0 +1,21 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.teknobirader.philipshome'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.teknobirader.philipshome'
+        minSdk 28
+        targetSdk 30
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+}
